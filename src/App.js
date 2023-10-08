@@ -12,7 +12,7 @@ function App() {
   var lista = []
 
 
-
+  //Haetaan vitsi sivulta, API ohjeet olivat CURL tyylillä.
   const fetchJoke = (e) => {
     e.preventDefault()
     axios.get(URL, {
@@ -26,6 +26,7 @@ function App() {
 
   }
 
+  //Tallenna parhaat vitsit, ehkä jossain vaiheessa voisi tallentaa txt tiedostoon tai jtn.
   function saved(){
     lista.push(joke)
     for(var i = 0; i < lista.length; i++){
