@@ -2,6 +2,7 @@ import './App.css';
 import { useState } from 'react'
 import axios from 'axios'
 
+//Ei tarvitse API avainta
 // Lisäsin simppelin tallennus function jolla voi pitää vitsit näkyvillä.
 
 const URL = "https://icanhazdadjoke.com/"
